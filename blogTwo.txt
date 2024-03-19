@@ -1,0 +1,33 @@
+OBJECT AND ITS INTERNAL REPRESENTAION IN JAVASCRIPT
+
+Object in javascript : Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+Object is collection of named values having state and behavior (properties and method). For example: Person, car, pen etc.
+
+Internal Representation : 
+
+Object Properties :
+The name:values pairs (in JavaScript objects) are called properties.
+
+Object Methods :
+An object method is an object property containing a function definition.
+
+Take a car as an example : All cars have the same properties, but the property values differ from car to car. All cars have the same methods, 
+                           but the methods are performed at different times.
+
+Car properties like :
+
+Make: Toyato 
+Model: Innova
+Color: White
+Fuel: Diesel
+Weight: 850kg
+Mileage: 8Kmpl
+Rating: 4.8
+
+variable named car : var car = "Toyato"
+
+Object Properties : name : values pairs
+
+var car = {Make: "Toyato", Model: “Innova”, Color: “White”, Fuel: Diesel, Weight: “850kg”,Mileage: “8Kmpl”, Rating: 4.8};
+
+You can access object properties in two ways : objectName.propertyName or objectName["propertyName"]
